@@ -2,9 +2,11 @@
 
 A Notification Service API built by NestJS.
 
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Docs
+
+接口文档：<a href="./docs/README.md">看这里</a>。
+
+# Setup
 
 ## Installation
 
