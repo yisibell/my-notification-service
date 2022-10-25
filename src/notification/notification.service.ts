@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { EventsGateway } from '../events/events.gateway';
+import { NotificationFireDto } from './dto/notification-fire.dto';
 
 @Injectable()
 export class NotificationService {
@@ -7,7 +8,7 @@ export class NotificationService {
     return 'notification fired successful!';
   }
 
-  fire(eventsGateway: EventsGateway, data: any) {
+  fire(eventsGateway: EventsGateway, data: NotificationFireDto) {
     eventsGateway.emitMessage(data);
 
     return data;
